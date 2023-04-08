@@ -12,10 +12,19 @@ const Button = styled.button`
   padding: 0.25em 1em;
   border: 2px solid palevioletred;
   border-radius: 3px;
+  
 `;
+const H2 = styled.h2`
+width: auto;
+border: 2px solid;
+background-color: #D35400; 
+width: 50%;
+margin: 0px auto;`;
+
 
 const Img = styled.img`
 width: 40%
+border: 4px solid;
 `;
 
 // https://dog.ceo/api/breeds/image/random
@@ -31,7 +40,7 @@ const Dog = (props) => {
   return (
     <>
       <div>
-        <h2>BREED: {breed}</h2>
+        <H2>BREED: {breed}</H2>
         <Img src={props.message} alt="Dog"/>
       </div>
       
