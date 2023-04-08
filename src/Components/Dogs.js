@@ -23,7 +23,7 @@ margin: 0px auto;`;
 
 
 const Img = styled.img`
-width: 40%
+width: 40%;
 border: 4px solid;
 `;
 
